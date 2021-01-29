@@ -1,0 +1,62 @@
+html, body {
+    width: 100%; height: 100%; margin: 0; padding: 0
+}
+
+.item-meta-tag {
+    font-size: x-small;
+}
+
+.item-meta-content {
+    font-size: small;
+    font-weight: bold;
+}
+
+.item-last-update {
+    font-size: small;
+}
+
+.filters-title {
+    font-size: small;
+    font-weight: bold;
+}
+
+.filters-header {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.form-check-label {
+    font-size: small;
+}
+
+.nav-logo {
+    font-size: large;
+}
+
+.btn-group-vertical.strech {
+    display: flex;
+}
+
+.strech .btn {
+    flex: 1
+}
+
+.item-section {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.item-section .item-header {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.item-section .item-content {
+    font-size: small;
+    font-weight: bold;
+}
+
+.item-section .btn {
+    font-size: small;
+}

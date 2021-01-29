@@ -1,0 +1,22 @@
+apiVersion: v1
+categories:
+- utils
+description: Nuclio based - Cron scheduler for running your MLRun projects
+doc: ''
+example: ''
+generationDate: '2021-01-20 08:21:10.675072'
+icon: ''
+labels:
+  author: orz
+maintainers: []
+mlrunVersion: ''
+name: project-runner
+platformVersion: ''
+spec:
+  filename: function.py
+  handler: ''
+  image: ''
+  kind: remote
+  requierments: []
+url: ''
+version: '0.1'

@@ -1,0 +1,24 @@
+apiVersion: v1
+categories:
+- serving
+- ml
+description: generic sklearn model server
+doc: ''
+example: ''
+generationDate: '2021-01-20 08:21:10.717188'
+icon: ''
+labels:
+  author: yaronh
+  framework: sklearn
+maintainers: []
+mlrunVersion: ''
+name: v2-model-server
+platformVersion: ''
+spec:
+  filename: function.py
+  handler: ''
+  image: ''
+  kind: serving
+  requierments: []
+url: ''
+version: '0.1'

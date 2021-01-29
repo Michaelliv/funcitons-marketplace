@@ -1,0 +1,2292 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="_static/styles.css">
+</head>
+
+<body style="background-color: aliceblue;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Marketplace</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search functions" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <ul class="pagination justify-content-end pt-3">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 d-flex text-left">
+                <ul>
+                    
+                    <div class="pt-2 filters-header">FILTERS</div>
+                    <hr>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="official" checked>
+                            <label class="form-check-label" for="official">
+                                Official
+                            </label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="third-party-functions" checked>
+                            <label class="form-check-label" for="third-party-functions">
+                                Third-party functions
+                            </label>
+                        </div>
+                        
+                    
+                    <div class="pt-2 filters-header">CATEGORY</div>
+                    <hr>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="serving" checked>
+                            <label class="form-check-label" for="serving">
+                                Serving
+                            </label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="dask" checked>
+                            <label class="form-check-label" for="dask">
+                                Dask
+                            </label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="spark" checked>
+                            <label class="form-check-label" for="spark">
+                                Spark
+                            </label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="training" checked>
+                            <label class="form-check-label" for="training">
+                                Training
+                            </label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="features" checked>
+                            <label class="form-check-label" for="features">
+                                Features
+                            </label>
+                        </div>
+                        
+                    
+                    <div class="pt-2 filters-header">KIND</div>
+                    <hr>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="job" checked>
+                            <label class="form-check-label" for="job">
+                                Job
+                            </label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="nuclio" checked>
+                            <label class="form-check-label" for="nuclio">
+                                Nuclio
+                            </label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="dask" checked>
+                            <label class="form-check-label" for="dask">
+                                Dask
+                            </label>
+                        </div>
+                        
+                    
+                    <div class="pt-2 filters-header">REPOSITORY</div>
+                    <hr>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="mlrun" checked>
+                            <label class="form-check-label" for="mlrun">
+                                MLRun
+                            </label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="storey" checked>
+                            <label class="form-check-label" for="storey">
+                                Storey
+                            </label>
+                        </div>
+                        
+                    
+            </div>
+            <div class="col-9">
+                <ul>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Dask Init.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Dask Init
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.031587
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Coxph Trainer.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Coxph Trainer
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                cox proportional hazards, kaplan meier plots
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.027822
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Coxph Test.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Coxph Test
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                test cox proportional hazards model
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.783079
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Stream To Parquet.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Stream To Parquet
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Saves a stream to Parquet and can lunch drift detection task on it
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.112728
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Load Dask.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Load Dask
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                load dask cluster with data
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.074207
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Spark Submit.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Spark Submit
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.774849
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Gen Class Data.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Gen Class Data
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                simulate classification data using scikit-learn
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.684960
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Churn Server.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Churn Server
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                churn classification and predictor
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.692151
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Concept Drift Streaming.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Concept Drift Streaming
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Deploy a streaming Concept Drift detector on a labeled stream. the nuclio part of the concept_drift function
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.667700
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Tf2 Serving.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Tf2 Serving
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                tf2 image classification server
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.996040
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Describe.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Describe
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                describe and visualizes dataset stats
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.761367
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Sklearn Classifier.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Sklearn Classifier
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                train any classifier using scikit-learn's API
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.739024
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Virtual Drift.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Virtual Drift
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Compute drift magnitude between Time-Samples T and U
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.052370
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Github Utils.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Github Utils
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                add comments to github pull requests
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.699781
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Open Archive.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Open Archive
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Open a file/object archive into a target directory
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.723999
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Arc To Parquet.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Arc To Parquet
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                retrieve remote archive, open and save as parquet
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.750412
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Bert Embeddings.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Bert Embeddings
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Get BERT based embeddings for given text
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.119800
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Concept Drift.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Concept Drift
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Deploy a streaming Concept Drift detector on a labeled stream
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.637560
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Send Email.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Send Email
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Send Email messages through SMTP server
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.707833
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Xgb Serving.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Xgb Serving
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                xgboost test data classification server
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.012198
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Tf1 Serving.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Tf1 Serving
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                tf1 image classification server
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.005281
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Model Server Tester.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Model Server Tester
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                test model servers
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.128608
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Feature Selection.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Feature Selection
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Select features through multiple Statistical and Model filters
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.938327
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Describe Dask.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Describe Dask
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                describe and visualizes dataset stats
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.949667
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Sql To File.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Sql To File
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                SQL To File - Ingest data using SQL query
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.145386
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Xgb Trainer.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Xgb Trainer
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                train multiple model types using xgboost
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.914041
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Load Dataset.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Load Dataset
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                load a toy dataset from scikit-learn
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.968300
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Test Classifier.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Test Classifier
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                test a classifier using held-out or new data
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.840148
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Slack Notify.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Slack Notify
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Send Slack notification
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.064468
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Xgb Custom.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Xgb Custom
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                train an xgboost model using the low-level api
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.102971
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Describe Spark.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Describe Spark
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.830295
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Model Server.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Model Server
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                generic sklearn model server
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.976220
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Sentiment Analysis Serving.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Sentiment Analysis Serving
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                BERT based sentiment classification model
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.958710
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/V2 Model Tester.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        V2 Model Tester
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                test v2 model servers
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.986360
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Xgb Test.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Xgb Test
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                test a classifier using held-out or new data
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.847841
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/V2 Model Server.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        V2 Model Server
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                generic sklearn model server
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.717188
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Aggregate.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Aggregate
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Rolling aggregation over Metrics and Lables according to specifications
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.653521
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Feature Perms.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Feature Perms
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                estimate feature importances using permutations
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.139389
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Pandas Profiling Report.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Pandas Profiling Report
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Create Pandas Profiling Report from Dataset
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:11.058182
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 start -->
+                    <div class="card border-secondary w-100 mt-3" href="_static/Project Runner.html">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center text-center align-self-center">
+                                    <i class="fa fa-5x fa-server"></i>
+                                </div>
+                                <div class="col-9 py-2">
+                                    <div class="row h4 item-meta-header">
+                                        Project Runner
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">ORG:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">REPO:</span>
+                                            <span class="item-meta-content">MLRun</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">VERSION:</span>
+                                            <span class="item-meta-content">0.1</span>
+                                        </div>
+                                        <div class="col text-left">
+                                            <span class="item-meta-tag">MLRUN:</span>
+                                            <span class="item-meta-content"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-center py-1">
+                                Nuclio based - Cron scheduler for running your MLRun projects
+                            </div>
+                            <div class="row py-1">
+                                <div class="col d-flex justify-content-start item-last-update">
+                                    2021-01-20 08:21:10.675072
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#" class="badge badge-info mx-2">Official</a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-start">
+                                    <i class="fa fa-2x fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
