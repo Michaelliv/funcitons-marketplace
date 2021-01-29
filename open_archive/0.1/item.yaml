@@ -1,0 +1,23 @@
+apiVersion: v1
+categories:
+- data-movement
+- utils
+description: Open a file/object archive into a target directory
+doc: ''
+example: ''
+generationDate: '2021-01-20 08:21:10.723999'
+icon: ''
+labels:
+  author: yaronh
+maintainers: []
+mlrunVersion: ''
+name: open-archive
+platformVersion: ''
+spec:
+  filename: function.py
+  handler: open_archive
+  image: mlrun/mlrun
+  kind: job
+  requierments: []
+url: ''
+version: '0.1'
