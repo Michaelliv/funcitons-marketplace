@@ -1,0 +1,23 @@
+kind: dask
+metadata:
+  name: dask_init
+  hash: 89bd0164f603fd919cd2e188038d0460a1dd00f5
+  project: ''
+  categories: []
+spec:
+  command: ''
+  image: mlrun/ml-models
+  env: []
+  resources:
+    limits:
+      memory: 8G
+  build:
+    commands: []
+  description: ''
+  replicas: 5
+  remote: true
+  service_type: NodePort
+  nthreads: 6
+  min_replicas: 0
+  max_replicas: 16
+  scheduler_timeout: 60 minutes
