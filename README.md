@@ -1,3 +1,6 @@
+### Change log [2021-01-31 11:29:20]
+1. Item Updated: `aggregate` (from version: `0.6` to `0.6`)
+
 ### Change log [2021-01-31 11:27:33]
 1. New item created: `sklearn_classifier_dask` (version: `0.1`)
 2. New item created: `coxph_trainer` (version: `0.1`)
