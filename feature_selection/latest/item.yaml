@@ -1,0 +1,23 @@
+apiVersion: v1
+categories:
+- data-prep
+- ml
+description: Select features through multiple Statistical and Model filters
+doc: ''
+example: ''
+generationDate: '2021-01-20 08:21:10.938327'
+icon: ''
+labels:
+  author: orz
+maintainers: []
+mlrunVersion: ''
+name: feature-selection
+platformVersion: ''
+spec:
+  filename: function.py
+  handler: feature_selection
+  image: mlrun/ml-models
+  kind: job
+  requierments: []
+url: ''
+version: '0.1'

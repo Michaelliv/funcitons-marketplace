@@ -1,0 +1,20 @@
+apiVersion: v1
+categories: []
+description: ''
+doc: ''
+example: ''
+generationDate: '2021-01-20 08:21:11.031587'
+icon: ''
+labels: {}
+maintainers: []
+mlrunVersion: ''
+name: dask_init
+platformVersion: ''
+spec:
+  filename: function.py
+  handler: ''
+  image: mlrun/ml-models
+  kind: dask
+  requierments: []
+url: ''
+version: '0.1'
