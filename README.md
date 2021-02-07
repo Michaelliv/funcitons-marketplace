@@ -1,3 +1,6 @@
+### Change log [2021-02-07 09:33:47]
+1. Item Updated: `aggregate` (from version: `0.7` to `0.7`)
+
 ### Change log [2021-01-31 11:29:20]
 1. Item Updated: `aggregate` (from version: `0.6` to `0.6`)
 
